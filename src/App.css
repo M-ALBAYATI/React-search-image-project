@@ -1,14 +1,36 @@
 .App {
-  margin: 10px;
+  margin:10px;
 }
 
 .searchDiv {
+  background-image: url(https://64.media.tumblr.com/a7bb4103cb3a096fb8280fd1493642da/9553f9cdcc74a409-84/s500x750/2b494479f4222bba2029e3a8ce5808418d50d645.gifv);
+  background-size:cover;
   border: 1px solid lightgray;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .searchDiv form {
   display: flex;
   flex-direction: column;
+}
+
+.searchDiv form label {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.searchDiv form input {
+  padding:3.5px ;
+ }
+
+.imageList {
+  columns: 250px 5 ;
+  column-gap: 10px;
+}
+
+.imageListImg {
+  width: 100%;
+  margin-bottom: 10px;
 }
